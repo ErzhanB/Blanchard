@@ -1,0 +1,3391 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="css/swiper-bundle.min.css">
+	<link rel="stylesheet" href="css/simple-bar.css" />
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="img/favicon.ico">
+
+	<title>Blanchard — художественная галерея</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__top">
+				<div class="container">
+					<div class="header__row">
+						<button class="header__burger btn-reset">
+							<span></span>
+						</button>
+						<div class="header__logo">
+							<img src="img/logo.svg" alt="Blanchard — художественная галерея">
+						</div>
+						<nav class="header__nav nav">
+							<ul class="nav__list">
+								<li class="nav__item"><a href="#about" class="nav__link">О нас</a></li>
+								<li class="nav__item"><a href="#gallery" class="nav__link">Галерея</a></li>
+								<li class="nav__item"><a href="#catalog" class="nav__link">Каталог</a></li>
+								<li class="nav__item"><a href="#events" class="nav__link">События</a></li>
+								<li class="nav__item"><a href="#editions" class="nav__link">Издания</a></li>
+								<li class="nav__item"><a href="#projects" class="nav__link">Проекты</a></li>
+								<li class="nav__item"><a href="#contacts" class="nav__link">Контакты</a></li>
+							</ul>
+							<button class="nav__btn btn-reset"> <svg class="nav__svg" width="13" height="13"
+									viewbox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M5.12056 9.09278L6.13889 10.1111L9.75 6.5L6.13889 2.88889L5.12056 3.90722L6.98389 5.77778H0V7.22222H6.98389L5.12056 9.09278ZM11.5556 0H1.44444C0.642778 0 0 0.65 0 1.44444V4.33333H1.44444V1.44444H11.5556V11.5556H1.44444V8.66667H0V11.5556C0 12.35 0.642778 13 1.44444 13H11.5556C12.35 13 13 12.35 13 11.5556V1.44444C13 0.65 12.35 0 11.5556 0Z"
+										fill="white" />
+								</svg>Войти</button>
+						</nav>
+						<form method="POST" action="#" class="header-search">
+							<button class="header-search__btn btn-reset"><svg width="30" height="29" viewbox="0 0 30 29"
+									fill="none" xmlns="http://www.w3.org/2000/svg">
+									<rect width="9.15446" height="2.28862"
+										transform="matrix(-0.718931 0.695081 0.718931 0.695081 6.58105 21.0461)" fill="white" />
+									<path fill-rule="evenodd" clip-rule="evenodd"
+										d="M16.1246 24.174C10.0376 24.174 5.32763 19.2725 5.32763 13.5104C5.32763 7.74821 10.0376 2.84674 16.1246 2.84674C22.2115 2.84674 26.9215 7.74821 26.9215 13.5104C26.9215 19.2725 22.2115 24.174 16.1246 24.174ZM16.1246 26.8399C8.76285 26.8399 2.79502 20.8721 2.79502 13.5104C2.79502 6.14867 8.76285 0.180832 16.1246 0.180832C23.4863 0.180832 29.4541 6.14867 29.4541 13.5104C29.4541 20.8721 23.4863 26.8399 16.1246 26.8399Z"
+										fill="white" />
+								</svg></button>
+							<input placeholder="Поиск по сайту" type="text" class="header-search__input">
+							<button class="header-search__close btn-reset"><svg width="29" height="29" viewbox="0 0 29 29"
+									fill="none" xmlns="http://www.w3.org/2000/svg">
+									<g opacity="1">
+										<rect width="37.2801" height="3.72801"
+											transform="matrix(0.707093 0.707121 -0.707093 0.707121 2.63867 7.62939e-06)"
+											fill="white" />
+										<rect width="37.2801" height="3.72801"
+											transform="matrix(0.707093 -0.707121 0.707093 0.707121 -0.000976562 26.3615)"
+											fill="white" />
+									</g>
+								</svg></button>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="menu">
+				<div class="container">
+					<div class="menu__row">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<button class="menu__btn btn-reset"><span>Реализм</span><svg class="menu__svg" width="12"
+										height="11" viewbox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M11 5L6 10L0.999998 5" stroke="white" />
+									</svg></button>
+								<div class="drop-down">
+									<ul data-simplebar class="drop-down__list">
+										<li class="drop-down__item drop-down__item--tintoretto"><a href="#"
+												class="drop-down__link">Тинторетто</a></li>
+										<li class="drop-down__item drop-down__item--fridrih"><a href="#"
+												class="drop-down__link">Фридрих</a></li>
+										<li class="drop-down__item drop-down__item--leonardo"><a href="#"
+												class="drop-down__link">Леонардо</a></li>
+										<li class="drop-down__item drop-down__item--verrokkio"><a href="#"
+												class="drop-down__link">Верроккьо</a></li>
+										<li class="drop-down__item drop-down__item--tintoretto"><a href="#"
+												class="drop-down__link">Тинторетто</a></li>
+										<li class="drop-down__item drop-down__item--fridrih"><a href="#"
+												class="drop-down__link">Фридрих</a></li>
+										<li class="drop-down__item drop-down__item--leonardo"><a href="#"
+												class="drop-down__link">Леонардо</a></li>
+										<li class="drop-down__item drop-down__item--verrokkio"><a href="#"
+												class="drop-down__link">Верроккьо</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="menu__item">
+								<button class="menu__btn btn-reset"><span>Импрессионизм</span><svg class="menu__svg" width="12"
+										height="11" viewbox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M11 5L6 10L0.999998 5" stroke="white" />
+									</svg></button>
+								<div class="drop-down">
+									<ul data-simplebar class="drop-down__list">
+										<li class="drop-down__item drop-down__item--mone"><a href="#"
+												class="drop-down__link">Моне</a></li>
+										<li class="drop-down__item drop-down__item--sisley"><a href="#"
+												class="drop-down__link">Сислей</a></li>
+										<li class="drop-down__item drop-down__item--mane"><a href="#"
+												class="drop-down__link">Мане</a></li>
+										<li class="drop-down__item drop-down__item--renuar"><a href="#"
+												class="drop-down__link">Ренуар</a></li>
+										<li class="drop-down__item drop-down__item--mone"><a href="#"
+												class="drop-down__link">Моне</a></li>
+										<li class="drop-down__item drop-down__item--sisley"><a href="#"
+												class="drop-down__link">Сислей</a></li>
+										<li class="drop-down__item drop-down__item--mane"><a href="#"
+												class="drop-down__link">Мане</a></li>
+										<li class="drop-down__item drop-down__item--renuar"><a href="#"
+												class="drop-down__link">Ренуар</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="menu__item">
+								<button class="menu__btn btn-reset"><span>Постимпрессионизм</span><svg class="menu__svg"
+										width="12" height="11" viewbox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M11 5L6 10L0.999998 5" stroke="white" />
+									</svg></button>
+								<div class="drop-down">
+									<ul data-simplebar class="drop-down__list">
+										<li class="drop-down__item drop-down__item--van-gog"><a href="#"
+												class="drop-down__link">Ван Гог</a></li>
+										<li class="drop-down__item drop-down__item--sezann"><a href="#"
+												class="drop-down__link">Сезанн</a></li>
+										<li class="drop-down__item drop-down__item--gogen"><a href="#"
+												class="drop-down__link">Гоген</a></li>
+										<li class="drop-down__item drop-down__item--siora"><a href="#"
+												class="drop-down__link">Сёра</a></li>
+										<li class="drop-down__item drop-down__item--van-gog"><a href="#"
+												class="drop-down__link">Ван Гог</a></li>
+										<li class="drop-down__item drop-down__item--sezann"><a href="#"
+												class="drop-down__link">Сезанн</a></li>
+										<li class="drop-down__item drop-down__item--gogen"><a href="#"
+												class="drop-down__link">Гоген</a></li>
+										<li class="drop-down__item drop-down__item--siora"><a href="#"
+												class="drop-down__link">Сёра</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="menu__item">
+								<button class="menu__btn btn-reset"><span>Авангард</span><svg class="menu__svg" width="12"
+										height="11" viewbox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M11 5L6 10L0.999998 5" stroke="white" />
+									</svg></button>
+								<div class="drop-down">
+									<ul data-simplebar class="drop-down__list">
+										<li class="drop-down__item drop-down__item--kandinski"><a href="#"
+												class="drop-down__link">Кандинский</a></li>
+										<li class="drop-down__item drop-down__item--marinetti"><a href="#"
+												class="drop-down__link">Маринетти</a></li>
+										<li class="drop-down__item drop-down__item--malevich"><a href="#"
+												class="drop-down__link">Малевич</a></li>
+										<li class="drop-down__item drop-down__item--picasso"><a href="#"
+												class="drop-down__link">Пикассо</a></li>
+										<li class="drop-down__item drop-down__item--kandinski"><a href="#"
+												class="drop-down__link">Кандинский</a></li>
+										<li class="drop-down__item drop-down__item--marinetti"><a href="#"
+												class="drop-down__link">Маринетти</a></li>
+										<li class="drop-down__item drop-down__item--malevich"><a href="#"
+												class="drop-down__link">Малевич</a></li>
+										<li class="drop-down__item drop-down__item--picasso"><a href="#"
+												class="drop-down__link">Пикассо</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="menu__item">
+								<button class="menu__btn btn-reset"><span>Футуризм</span><svg class="menu__svg" width="12"
+										height="11" viewbox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M11 5L6 10L0.999998 5" stroke="white" />
+									</svg></button>
+								<div class="drop-down">
+									<ul data-simplebar class="drop-down__list">
+										<li class="drop-down__item drop-down__item--karra"><a href="#"
+												class="drop-down__link">Карра</a></li>
+										<li class="drop-down__item drop-down__item--pratella"><a href="#"
+												class="drop-down__link">Прателла</a></li>
+										<li class="drop-down__item drop-down__item--severini"><a href="#"
+												class="drop-down__link">Северини</a></li>
+										<li class="drop-down__item drop-down__item--balla"><a href="#"
+												class="drop-down__link">Балла</a></li>
+										<li class="drop-down__item drop-down__item--karra"><a href="#"
+												class="drop-down__link">Карра</a></li>
+										<li class="drop-down__item drop-down__item--pratella"><a href="#"
+												class="drop-down__link">Прателла</a></li>
+										<li class="drop-down__item drop-down__item--severini"><a href="#"
+												class="drop-down__link">Северини</a></li>
+										<li class="drop-down__item drop-down__item--balla"><a href="#"
+												class="drop-down__link">Балла</a></li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+						<form method="POST" action="#" class="search">
+							<button class="search__btn btn-reset"><svg width="30" height="29" viewbox="0 0 30 29" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<rect width="9.15446" height="2.28862"
+										transform="matrix(-0.718931 0.695081 0.718931 0.695081 6.58105 21.0461)" fill="white" />
+									<path fill-rule="evenodd" clip-rule="evenodd"
+										d="M16.1246 24.174C10.0376 24.174 5.32763 19.2725 5.32763 13.5104C5.32763 7.74821 10.0376 2.84674 16.1246 2.84674C22.2115 2.84674 26.9215 7.74821 26.9215 13.5104C26.9215 19.2725 22.2115 24.174 16.1246 24.174ZM16.1246 26.8399C8.76285 26.8399 2.79502 20.8721 2.79502 13.5104C2.79502 6.14867 8.76285 0.180832 16.1246 0.180832C23.4863 0.180832 29.4541 6.14867 29.4541 13.5104C29.4541 20.8721 23.4863 26.8399 16.1246 26.8399Z"
+										fill="white" />
+								</svg></button>
+							<input placeholder="Поиск по сайту" type="text" class="search__input">
+						</form>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="main">
+			<section class="hero">
+				<h1 class="visually-hidden">Blanchard — художественная галерея</h1>
+				<div class="hero-swiper swiper-container">
+					<div class="hero-swiper__wrapper swiper-wrapper">
+						<div class="hero-swiper__slide swiper-slide">
+							<div class="hero-swiper__image">
+								<picture>
+									<source srcset="img/hero/1.webp" type="image/webp" media="(min-width: 768px)">
+									<source srcset="img/hero/768/1.webp" type="image/webp" media="(max-width: 768px)">
+									<source srcset="img/hero/768/1.jpg" type="image/jpg" media="(max-width: 768px)">
+									<img src="img/hero/1.jpg" alt="">
+								</picture>
+							</div>
+						</div>
+						<div class="hero-swiper__slide swiper-slide">
+							<div class="hero-swiper__image">
+								<picture>
+									<source srcset="img/hero/2.webp" type="image/webp" media="(min-width: 768px)">
+									<source srcset="img/hero/768/2.webp" type="image/webp" media="(max-width: 768px)">
+									<source srcset="img/hero/768/2.jpg" type="image/jpg" media="(max-width: 768px)">
+									<img src="img/hero/2.jpg" alt="">
+								</picture>
+							</div>
+						</div>
+						<div class="hero-swiper__slide swiper-slide">
+							<div class="hero-swiper__image">
+								<picture>
+									<source srcset="img/hero/3.webp" type="image/webp" media="(min-width: 768px)">
+									<source srcset="img/hero/768/3.webp" type="image/webp" media="(max-width: 768px)">
+									<source srcset="img/hero/768/3.jpg" type="image/jpg" media="(max-width: 768px)">
+									<img src="img/hero/3.jpg" alt="">
+								</picture>
+							</div>
+						</div>
+					</div>
+					<div class="hero__text">
+						<div class="container">
+							<span class="hero__title">Прикоснитесь к&nbsp;прекрасному</span>
+							<p class="hero__descr">Мы вынуждены отталкиваться от того, что реализация намеченных плановых
+								заданий
+								создаёт предпосылки для новых предложений.</p>
+							<a href="#contacts" class="hero__link">Подписаться на рассылку</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="about" class="about">
+				<div class="container">
+					<h2 class="about__title section-title">О нас</h2>
+					<p class="about__descr section-descr">Ясность нашей позиции очевидна: семантический разбор внешних
+						противодействий однозначно определяет каждого участника как способного принимать собственные решения
+						касаемо распределения внутренних резервов и ресурсов. Не следует, однако, забывать, что
+						высококачественный прототип будущего проекта влечет за собой процесс внедрения и модернизации модели
+						развития. Повседневная практика показывает, что высокое качество позиционных исследований создаёт
+						необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом
+						комплекса распределения внутренних резервов и ресурсов. В рамках спецификации современных стандартов,
+						действия представителей оппозиции набирают популярность среди определенных слоев населения, а значит,
+						должны быть разоблачены.</p>
+				</div>
+			</section>
+			<section id="gallery" class="gallery">
+				<div class="container">
+					<div class="gallery__row">
+						<div class="gallery__left">
+							<h2 class="gallery__title section-title">Галерея</h2>
+							<span class="gallery__filter-text">Фильтровать по:</span>
+							<div class="filter">
+								<div class="filter__header">
+									<span class="filter__current">Автор</span>
+									<div class="filter__icon">
+										<svg width="12" height="11" viewbox="0 0 12 11" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path d="M11 5L6 10L0.999998 5" stroke="white" />
+										</svg>
+									</div>
+								</div>
+								<div class="filter__body">
+									<div class="filter__item">Автор</div>
+									<div class="filter__item">Направление</div>
+									<div class="filter__item">Техника</div>
+								</div>
+							</div>
+							<p class="gallery__descr gallery__descr--left section-descr">Вам предоставляется 10 бесплатных
+								скачиваний. Для
+								увеличения количества скачиваний <a href="#" class="gallery__link">авторизуйтесь</a>, либо
+								воспользуйтесь лицензией. </p>
+						</div>
+						<div class="gallery__right">
+							<div class="gallery-swiper swiper-container">
+								<div class="gallery-swiper__btn-prev swiper-button-prev"><svg class="gallery-swiper__svg"
+										width="30" height="30" viewbox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M15 30C6.71573 30 8.89561e-07 23.2843 1.25168e-06 15C1.61379e-06 6.71573 6.71573 -1.01779e-06 15 -6.55671e-07C23.2843 -2.93554e-07 30 6.71573 30 15C30 23.2843 23.2843 30 15 30Z"
+											fill="#666666" />
+										<path d="M16 20L11 15L16 10" stroke="white" />
+									</svg></div>
+								<div class="gallery-swiper__pagination swiper-pagionation"></div>
+								<div class="gallery-swiper__btn-next swiper-button-next"><svg class="gallery-swiper__svg"
+										width="30" height="30" viewbox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M15 30C23.2843 30 30 23.2843 30 15C30 6.71573 23.2843 -1.01779e-06 15 -6.55671e-07C6.71573 -2.93554e-07 2.93554e-07 6.71573 6.55671e-07 15C1.01779e-06 23.2843 6.71573 30 15 30Z"
+											fill="#666666" />
+										<path d="M14 20L19 15L14 10" stroke="white" />
+									</svg></div>
+								<div class="gallery-swiper__wrapper swiper-wrapper">
+									<div class="gallery-swiper__slide swiper-slide">
+										<a href="#popup" class="gallery-swiper__link popup-link">
+											<picture>
+												<source srcset="img/gallery/1.webp" type="image/webp">
+												<img class="gallery-swiper__image" src="img/gallery/1.jpg" alt="">
+											</picture>
+										</a>
+									</div>
+									<div class="gallery-swiper__slide swiper-slide">
+										<a href="#popup" class="gallery-swiper__link popup-link">
+											<picture>
+												<source srcset="img/gallery/2.webp" type="image/webp">
+												<img class="gallery-swiper__image" src="img/gallery/2.jpg" alt="">
+											</picture>
+										</a>
+									</div>
+									<div class="gallery-swiper__slide swiper-slide">
+										<a href="#popup" class="gallery-swiper__link popup-link">
+											<picture>
+												<source srcset="img/gallery/3.webp" type="image/webp">
+												<img class="gallery-swiper__image" src="img/gallery/3.jpg" alt="">
+											</picture>
+										</a>
+									</div>
+									<div class="gallery-swiper__slide swiper-slide">
+										<a href="#popup" class="gallery-swiper__link popup-link">
+											<picture>
+												<source srcset="img/gallery/4.webp" type="image/webp">
+												<img class="gallery-swiper__image" src="img/gallery/4.jpg" alt="">
+											</picture>
+										</a>
+									</div>
+									<div class="gallery-swiper__slide swiper-slide">
+										<a href="#popup" class="gallery-swiper__link popup-link">
+											<picture>
+												<source srcset="img/gallery/5.webp" type="image/webp">
+												<img class="gallery-swiper__image" src="img/gallery/5.jpg" alt="">
+											</picture>
+										</a>
+									</div>
+									<div class="gallery-swiper__slide swiper-slide">
+										<a href="#popup" class="gallery-swiper__link popup-link">
+											<picture>
+												<source srcset="img/gallery/6.webp" type="image/webp">
+												<img class="gallery-swiper__image" src="img/gallery/6.jpg" alt="">
+											</picture>
+										</a>
+									</div>
+									<div class="gallery-swiper__slide swiper-slide">
+										<a href="#popup" class="gallery-swiper__link popup-link">
+											<picture>
+												<source srcset="img/gallery/7.webp" type="image/webp">
+												<img class="gallery-swiper__image" src="img/gallery/7.jpg" alt="">
+											</picture>
+										</a>
+									</div>
+									<div class="gallery-swiper__slide swiper-slide">
+										<a href="#popup" class="gallery-swiper__link popup-link">
+											<picture>
+												<source srcset="img/gallery/8.webp" type="image/webp">
+												<img class="gallery-swiper__image" src="img/gallery/8.jpg" alt="">
+											</picture>
+										</a>
+									</div>
+									<div class="gallery-swiper__slide swiper-slide">
+										<a href="#popup" class="gallery-swiper__link popup-link">
+											<picture>
+												<source srcset="img/gallery/9.webp" type="image/webp">
+												<img class="gallery-swiper__image" src="img/gallery/9.jpg" alt="">
+											</picture>
+										</a>
+									</div>
+									<div class="gallery-swiper__slide swiper-slide">
+										<a href="#popup" class="gallery-swiper__link popup-link">
+											<picture>
+												<source srcset="img/gallery/10.webp" type="image/webp">
+												<img class="gallery-swiper__image" src="img/gallery/10.jpg" alt="">
+											</picture>
+										</a>
+									</div>
+									<div class="gallery-swiper__slide swiper-slide">
+										<a href="#popup" class="gallery-swiper__link popup-link">
+											<picture>
+												<source srcset="img/gallery/11.webp" type="image/webp">
+												<img class="gallery-swiper__image" src="img/gallery/11.jpg" alt="">
+											</picture>
+										</a>
+									</div>
+									<div class="gallery-swiper__slide swiper-slide">
+										<a href="#popup" class="gallery-swiper__link popup-link">
+											<picture>
+												<source srcset="img/gallery/12.webp" type="image/webp">
+												<img class="gallery-swiper__image" src="img/gallery/12.jpg" alt="">
+											</picture>
+										</a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<p class="gallery__descr gallery__descr--right section-descr">Вам предоставляется 10 бесплатных
+							скачиваний. Для
+							увеличения количества скачиваний <a href="#" class="gallery__link">авторизуйтесь</a>, либо
+							воспользуйтесь лицензией. </p>
+					</div>
+					<div id="popup" class="popup">
+						<div class="popup__body">
+							<div class="popup__content">
+								<a href="#" class="popup__close close-popup"></a>
+								<div class="popup__row">
+									<div class="popup__image">
+										<picture>
+											<source srcset="img/gallery/gallery-zoomed.webp" type="image/webp">
+											<img src="img/gallery/gallery-zoomed.jpg" alt="">
+										</picture>
+									</div>
+									<div class="popup__text">
+										<span class="popup__author">Казимир Малевич</span>
+										<span class="popup__name">“Женщина с граблями”</span>
+										<small class="popup__date">1931-1932</small>
+										<p class="popup__descr">Картина из второй серии крестьянского цикла работ Казимира
+											Малевича. Художник принялся за её создание в 1930-1931 годах, после того, как первый
+											цикл был утерян после Берлинской и Варшавской выставок в 1927 году.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="catalog" class="catalog">
+				<div class="container">
+					<div class="catalog__top">
+						<h2 class="section-title catalog__title">Каталог</h2>
+						<ul class="languages">
+							<li class="languages__item"><button data-language="french"
+									class="btn-reset languages__tab languages__tab--french"></button></li>
+							<li class="languages__item"><button data-language="german"
+									class="btn-reset languages__tab languages__tab--german"></button></li>
+							<li class="languages__item"><button data-language="italian"
+									class="btn-reset languages__tab languages__tab--italian"></button></li>
+							<li class="languages__item"><button data-language="russian"
+									class="btn-reset languages__tab languages__tab--russian"></button></li>
+							<li class="languages__item"><button data-language="belgian"
+									class="btn-reset languages__tab languages__tab--belgian"></button></li>
+						</ul>
+					</div>
+					<div data-target-language="french" class="catalog__content">
+						<p class="section-descr catalog__descr">Акционеры крупнейших компаний, которые представляют собой
+							яркий пример континентально-европейского типа политической культуры, будут объявлены нарушающими
+							общечеловеческие нормы этики и морали. Являясь всего лишь частью общей картины, стремящиеся
+							вытеснить традиционное производство, нанотехнологии и по сей день остаются уделом либералов,
+							которые жаждут быть функционально разнесены на независимые элементы. </p>
+						<div class="catalog__row">
+							<div data-empty-painter-width class="painter">
+								<div data-target-painter="giorgione" class="painter__content">
+									<div class="painter__image">
+										<picture>
+											<source srcset="img/painter/giorgione.webp" type="image/webp">
+											<img src="img/painter/giorgione.jpg" alt="">
+										</picture>
+									</div>
+									<span class="painter__name">Джорджоне</span>
+									<small class="painter__lived">1478 — 1510.</small>
+									<p class="painter__info section-descr">
+										Джорджоне родился в небольшом городке Кастельфранко-Венето недалеко от Венеции. В 1493
+										перебрался в Венецию и стал учеником Джованни Беллини. В 1497 появилась его первая
+										самостоятельная работа — «Христос, Несущий Крест». Согласно Вазари, в апреле 1500
+										встречался с Леонардо да Винчи. В 1504 исполнил в родном городе Кастельфранко заказанный
+										ему алтарный образ «Мадонна Кастельфранко», предназначенный для семейной часовни Святого
+										Георгия в местном соборе, чтобы увековечить память Маттео Костанцо. По распоряжению Сената
+										республики в 1507—1508 привлекался к фресковым росписям Немецкого подворья (сохранился
+										фрагмент с изображением женской фигуры), работы были завершены, как об этом
+										свидетельствует официальный документ, 14 декабря 1508. Умер в октябре-ноябре 1510 года от
+										чумы.</p>
+								</div>
+								<div data-target-painter="vekkiettta" class="painter__content">
+									<div class="painter__image">
+										<picture>
+											<source srcset="img/painter/vekietto-painter.webp" type="image/webp">
+											<img src="img/painter/vekietto-painter.jpg" alt="">
+										</picture>
+									</div>
+									<span class="painter__name">Веккьетта</span>
+									<small class="painter__lived">1410 — 1480.</small>
+									<p class="painter__info section-descr">О Веккьетте сообщает в своих «Жизнеописаниях» Джорджо
+										Вазари и описывает его как человека мрачного и нелюдимого, вечно погружённого в раздумья,
+										и потому прожившего недолго. Позднейшие исследователи пытались имя этого художника увязать
+										с какими-либо архивными данными. Сейчас общепризнанной считается версия, что описанный
+										Вазари Веккьетта — это Лоренцо ди Пьетро ди Джованни, который был крещён в Сиене в 1410
+										году. Имя этого человека появляется в документах в 1428 году среди членов гильдии
+										художников Сиены.</p>
+								</div>
+							</div>
+							<div class="accordion">
+								<div class="accordion__block">
+									<button class="btn-reset accordion__date">
+										<span>C 1400 по 1499 гг.</span>
+										<svg class="accordion-svg" width="50" height="50" viewbox="0 0 50 50" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path class="accordion-svg__circle"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												fill="#ECECEC" />
+											<path class="accordion-svg__border"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												stroke="none" />
+											<path class="accordion-svg__arrow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333"
+												stroke="black" />
+										</svg>
+									</button>
+									<ul class="accordion__list">
+										<li class="accordion__item"><button data-painter="giorgione"
+												class="btn-reset accordion__tab accordion__tab--active">Джорджоне</button>
+										</li>
+										<li class="accordion__item"><button data-painter="vekkiettta"
+												class="btn-reset accordion__tab">Веккьетта</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+									</ul>
+								</div>
+								<div class="accordion__block">
+									<button class="btn-reset accordion__date">
+										<span>C 1500 по 1599 гг.</span>
+										<svg class="accordion-svg" width="50" height="50" viewbox="0 0 50 50" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path class="accordion-svg__circle"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												fill="#ECECEC" />
+											<path class="accordion-svg__border"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												stroke="none" />
+											<path class="accordion-svg__arrow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333"
+												stroke="black" />
+										</svg>
+									</button>
+									<ul class="accordion__list">
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+									</ul>
+								</div>
+								<div class="accordion__block">
+									<button class="btn-reset accordion__date">
+										<span>C 1600 по 1699 гг.</span>
+										<svg class="accordion-svg" width="50" height="50" viewbox="0 0 50 50" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path class="accordion-svg__circle"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												fill="#ECECEC" />
+											<path class="accordion-svg__border"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												stroke="none" />
+											<path class="accordion-svg__arrow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333"
+												stroke="black" />
+										</svg>
+									</button>
+									<ul class="accordion__list">
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+									</ul>
+								</div>
+								<div class="accordion__block">
+									<button class="btn-reset accordion__date">
+										<span>C 1700 по 1799 гг.</span>
+										<svg class="accordion-svg" width="50" height="50" viewbox="0 0 50 50" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path class="accordion-svg__circle"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												fill="#ECECEC" />
+											<path class="accordion-svg__border"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												stroke="none" />
+											<path class="accordion-svg__arrow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333"
+												stroke="black" />
+										</svg>
+									</button>
+									<ul class="accordion__list">
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+									</ul>
+								</div>
+								<div class="accordion__block">
+									<button class="btn-reset accordion__date">
+										<span>C 1800 по 1899 гг.</span>
+										<svg class="accordion-svg" width="50" height="50" viewbox="0 0 50 50" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path class="accordion-svg__circle"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												fill="#ECECEC" />
+											<path class="accordion-svg__border"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												stroke="none" />
+											<path class="accordion-svg__arrow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333"
+												stroke="black" />
+										</svg>
+									</button>
+									<ul class="accordion__list">
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+									</ul>
+								</div>
+								<div class="accordion__block">
+									<button class="btn-reset accordion__date">
+										<span>C 1900 по 1999 гг.</span>
+										<svg class="accordion-svg" width="50" height="50" viewbox="0 0 50 50" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path class="accordion-svg__circle"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												fill="#ECECEC" />
+											<path class="accordion-svg__border"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												stroke="none" />
+											<path class="accordion-svg__arrow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333"
+												stroke="black" />
+										</svg>
+									</button>
+									<ul class="accordion__list">
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+									</ul>
+								</div>
+								<div class="accordion__block">
+									<button class="btn-reset accordion__date">
+										<span>C 2000 г.</span>
+										<svg class="accordion-svg" width="50" height="50" viewbox="0 0 50 50" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path class="accordion-svg__circle"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												fill="#ECECEC" />
+											<path class="accordion-svg__border"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												stroke="none" />
+											<path class="accordion-svg__arrow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333"
+												stroke="black" />
+										</svg>
+									</button>
+									<ul class="accordion__list">
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div data-target-language="german" class="catalog__content">
+						<p class="section-descr catalog__descr">Акционеры крупнейших компаний, которые представляют собой
+							яркий пример континентально-европейского типа политической культуры, будут объявлены нарушающими
+							общечеловеческие нормы этики и морали. Являясь всего лишь частью общей картины, стремящиеся
+							вытеснить традиционное производство, нанотехнологии и по сей день остаются уделом либералов,
+							которые жаждут быть функционально разнесены на независимые элементы. </p>
+						<div class="catalog__row">
+							<div class="painter">
+								<div data-target-painter="Carl-D-F-Bach" class="painter__content">
+									<div class="painter__image">
+										<picture>
+											<source srcset="img/painter/Carl-D-F-Bach.webp" type="image/webp">
+											<img src="img/painter/Carl-D-F-Bach.jpg" alt="">
+										</picture>
+									</div>
+									<span class="painter__name">Бах, Карл Даниэль Фридрих</span>
+									<small class="painter__lived">1 мая 1756, Потсдам — 8 апреля 1829</small>
+									<p class="painter__info section-descr">Родился в семье еврейского торговца, старейшины
+										(Landesältester) бранденбургских иудеев. Сперва брал уроки рисования в Потсдаме, затем
+										учился в Академии художеств Берлина. Его талант и художественные способности были замечены
+										магнатом И. Оссолинским, который в 1780 году привез его в Варшаву и стал первым
+										покровителем художника. Здесь он добился значительных успехов.</p>
+								</div>
+								<div data-target-painter="gerhard-rihter" class="painter__content">
+									<div class="painter__image">
+										<picture>
+											<source srcset="img/painter/gerhard-richter.webp" type="image/webp">
+											<img src="img/painter/gerhard-richter.jpg" alt="">
+										</picture>
+									</div>
+									<span class="painter__name">Герхард Рихтер</span>
+									<small class="painter__lived">9 февраля 1932 года</small>
+									<p class="painter__info section-descr">
+										Герхард Рихтер возглавляет этот список уже много лет. Его работы буквально раскупают на
+										аукционах. В 2015 году картина художника, на которой изображена абстракция, была куплена
+										за рекордно высокую цену в 44,5 миллиона долларов. Стоит сказать, что у Рихтера нет своего
+										определённого направления. Но популярность ему принесли изображения, которые совмещают в
+										себе живопись и фотографию. Несмотря на свой почтенный возраст, художник очень
+										работоспособен. За прошлый год он нарисовал около 3 тысяч полотен.</p>
+								</div>
+							</div>
+							<div class="accordion">
+								<div class="accordion__block">
+									<button class="btn-reset accordion__date">
+										<span>C 1400 по 1499 гг.</span>
+										<svg class="accordion-svg" width="50" height="50" viewbox="0 0 50 50" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path class="accordion-svg__circle"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												fill="#ECECEC" />
+											<path class="accordion-svg__border"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												stroke="none" />
+											<path class="accordion-svg__arrow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333"
+												stroke="black" />
+										</svg>
+									</button>
+									<ul class="accordion__list">
+										<li class="accordion__item"><button data-painter="Carl-D-F-Bach"
+												class="btn-reset accordion__tab accordion__tab--active">Бах, Карл Даниэль
+												Фридрих</button>
+										</li>
+										<li class="accordion__item"><button data-painter="gerhard-rihter"
+												class="btn-reset accordion__tab">Герхард Рихтер</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+									</ul>
+								</div>
+								<div class="accordion__block">
+									<button class="btn-reset accordion__date">
+										<span>C 1500 по 1599 гг.</span>
+										<svg class="accordion-svg" width="50" height="50" viewbox="0 0 50 50" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path class="accordion-svg__circle"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												fill="#ECECEC" />
+											<path class="accordion-svg__border"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												stroke="none" />
+											<path class="accordion-svg__arrow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333"
+												stroke="black" />
+										</svg>
+									</button>
+									<ul class="accordion__list">
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+									</ul>
+								</div>
+								<div class="accordion__block">
+									<button class="btn-reset accordion__date">
+										<span>C 1600 по 1699 гг.</span>
+										<svg class="accordion-svg" width="50" height="50" viewbox="0 0 50 50" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path class="accordion-svg__circle"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												fill="#ECECEC" />
+											<path class="accordion-svg__border"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												stroke="none" />
+											<path class="accordion-svg__arrow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333"
+												stroke="black" />
+										</svg>
+									</button>
+									<ul class="accordion__list">
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+									</ul>
+								</div>
+								<div class="accordion__block">
+									<button class="btn-reset accordion__date">
+										<span>C 1700 по 1799 гг.</span>
+										<svg class="accordion-svg" width="50" height="50" viewbox="0 0 50 50" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path class="accordion-svg__circle"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												fill="#ECECEC" />
+											<path class="accordion-svg__border"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												stroke="none" />
+											<path class="accordion-svg__arrow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333"
+												stroke="black" />
+										</svg>
+									</button>
+									<ul class="accordion__list">
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+									</ul>
+								</div>
+								<div class="accordion__block">
+									<button class="btn-reset accordion__date">
+										<span>C 1800 по 1899 гг.</span>
+										<svg class="accordion-svg" width="50" height="50" viewbox="0 0 50 50" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path class="accordion-svg__circle"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												fill="#ECECEC" />
+											<path class="accordion-svg__border"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												stroke="none" />
+											<path class="accordion-svg__arrow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333"
+												stroke="black" />
+										</svg>
+									</button>
+									<ul class="accordion__list">
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+									</ul>
+								</div>
+								<div class="accordion__block">
+									<button class="btn-reset accordion__date">
+										<span>C 1900 по 1999 гг.</span>
+										<svg class="accordion-svg" width="50" height="50" viewbox="0 0 50 50" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path class="accordion-svg__circle"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												fill="#ECECEC" />
+											<path class="accordion-svg__border"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												stroke="none" />
+											<path class="accordion-svg__arrow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333"
+												stroke="black" />
+										</svg>
+									</button>
+									<ul class="accordion__list">
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+									</ul>
+								</div>
+								<div class="accordion__block">
+									<button class="btn-reset accordion__date">
+										<span>C 2000 г.</span>
+										<svg class="accordion-svg" width="50" height="50" viewbox="0 0 50 50" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path class="accordion-svg__circle"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												fill="#ECECEC" />
+											<path class="accordion-svg__border"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												stroke="none" />
+											<path class="accordion-svg__arrow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333"
+												stroke="black" />
+										</svg>
+									</button>
+									<ul class="accordion__list">
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div data-target-language="italian" class="catalog__content">
+						<p class="section-descr catalog__descr">Акционеры крупнейших компаний, которые представляют собой
+							яркий пример континентально-европейского типа политической культуры, будут объявлены нарушающими
+							общечеловеческие нормы этики и морали. Являясь всего лишь частью общей картины, стремящиеся
+							вытеснить традиционное производство, нанотехнологии и по сей день остаются уделом либералов,
+							которые жаждут быть функционально разнесены на независимые элементы.</p>
+						<div class="catalog__row">
+							<div class="painter">
+								<div data-target-painter="domeniko-girlandaio" class="painter__content">
+									<div class="painter__image">
+										<picture>
+											<source srcset="img/painter/painter.webp" type="image/webp">
+											<img src="img/painter/painter.jpg" alt="">
+										</picture>
+									</div>
+									<span class="painter__name">Доменико Гирландайо</span>
+									<small class="painter__lived">2 июня 1448 — 11 января 1494.</small>
+									<p class="painter__info section-descr">Один из ведущих флорентийских художников Кватроченто,
+										основатель
+										художественной династии,
+										которую продолжили его брат Давид и сын Ридольфо. Глава художественной мастерской, где
+										юный Микеланджело в течение года овладевал профессиональными навыками. Автор фресковых
+										циклов, в которых выпукло, со всевозможными подробностями показана домашняя жизнь
+										библейских персонажей (в их роли выступают знатные граждане Флоренции в костюмах того
+										времени).</p>
+								</div>
+								<div data-target-painter="caravaggio" class="painter__content">
+									<div class="painter__image">
+										<picture>
+											<source srcset="img/painter/caravaggio.webp" type="image/webp">
+											<img src="img/painter/caravaggio.jpg" alt="">
+										</picture>
+									</div>
+									<span class="painter__name">Микела́нджело Карава́джо</span>
+									<small class="painter__lived"> 29 сентября 1571, Милан — 18 июля 1610</small>
+									<p class="painter__info section-descr">Микела́нджело Меризи да Карава́джо (итал. Michelangelo
+										Merisi da Caravaggio; 29 сентября 1571, Милан[7] — 18 июля 1610, Порто-Эрколе[it]) —
+										итальянский художник, реформатор европейской живописи XVII века, основатель реализма в
+										живописи, один из крупнейших мастеров барокко. Одним из первых применил манеру письма
+										«кьяроскуро»[8][9] — резкое противопоставление света и тени, а также «тенеброcсо»[10]
+										(«тенеброзо»)[11]. Не обнаружено ни одного рисунка или эскиза, художник свои сложные
+										композиции сразу реализовывал на холсте.</p>
+								</div>
+							</div>
+							<div class="accordion">
+								<div class="accordion__block">
+									<button class="btn-reset accordion__date">
+										<span>C 1400 по 1499 гг.</span>
+										<svg class="accordion-svg" width="50" height="50" viewbox="0 0 50 50" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path class="accordion-svg__circle"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												fill="#ECECEC" />
+											<path class="accordion-svg__border"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												stroke="none" />
+											<path class="accordion-svg__arrow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333"
+												stroke="black" />
+										</svg>
+									</button>
+									<ul class="accordion__list">
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button data-painter="caravaggio"
+												class="btn-reset accordion__tab">Бергоньоне, Амброджо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Веккьетта</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Андреа
+												Верроккьо</button></li>
+										<li class="accordion__item"><button data-painter="domeniko-girlandaio"
+												class="btn-reset accordion__tab accordion__tab--active">Доменико
+												Гирландайо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Беноццо
+												Гоццоли</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Граначчи,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Грегорио ди
+												Чекко</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Джованни да
+												Удине</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Джованни ди Паоло
+											</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Джорджоне</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Парентино,
+												Бернардо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Пезеллино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Пьетро
+												Перуджино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Перуцци,
+												Бальдассаре</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Пизанелло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Пинтуриккьо</button>
+										</li>
+									</ul>
+								</div>
+								<div class="accordion__block">
+									<button class="btn-reset accordion__date">
+										<span>C 1500 по 1599 гг.</span>
+										<svg class="accordion-svg" width="50" height="50" viewbox="0 0 50 50" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path class="accordion-svg__circle"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												fill="#ECECEC" />
+											<path class="accordion-svg__border"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												stroke="none" />
+											<path class="accordion-svg__arrow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333"
+												stroke="black" />
+										</svg>
+									</button>
+									<ul class="accordion__list">
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+									</ul>
+								</div>
+								<div class="accordion__block">
+									<button class="btn-reset accordion__date">
+										<span>C 1600 по 1699 гг.</span>
+										<svg class="accordion-svg" width="50" height="50" viewbox="0 0 50 50" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path class="accordion-svg__circle"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												fill="#ECECEC" />
+											<path class="accordion-svg__border"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												stroke="none" />
+											<path class="accordion-svg__arrow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333"
+												stroke="black" />
+										</svg>
+									</button>
+									<ul class="accordion__list">
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+									</ul>
+								</div>
+								<div class="accordion__block">
+									<button class="btn-reset accordion__date">
+										<span>C 1700 по 1799 гг.</span>
+										<svg class="accordion-svg" width="50" height="50" viewbox="0 0 50 50" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path class="accordion-svg__circle"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												fill="#ECECEC" />
+											<path class="accordion-svg__border"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												stroke="none" />
+											<path class="accordion-svg__arrow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333"
+												stroke="black" />
+										</svg>
+									</button>
+									<ul class="accordion__list">
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+									</ul>
+								</div>
+								<div class="accordion__block">
+									<button class="btn-reset accordion__date">
+										<span>C 1800 по 1899 гг.</span>
+										<svg class="accordion-svg" width="50" height="50" viewbox="0 0 50 50" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path class="accordion-svg__circle"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												fill="#ECECEC" />
+											<path class="accordion-svg__border"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												stroke="none" />
+											<path class="accordion-svg__arrow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333"
+												stroke="black" />
+										</svg>
+									</button>
+									<ul class="accordion__list">
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+									</ul>
+								</div>
+								<div class="accordion__block">
+									<button class="btn-reset accordion__date">
+										<span>C 1900 по 1999 гг.</span>
+										<svg class="accordion-svg" width="50" height="50" viewbox="0 0 50 50" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path class="accordion-svg__circle"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												fill="#ECECEC" />
+											<path class="accordion-svg__border"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												stroke="none" />
+											<path class="accordion-svg__arrow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333"
+												stroke="black" />
+										</svg>
+									</button>
+									<ul class="accordion__list">
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+									</ul>
+								</div>
+								<div class="accordion__block">
+									<button class="btn-reset accordion__date">
+										<span>C 2000 г.</span>
+										<svg class="accordion-svg" width="50" height="50" viewbox="0 0 50 50" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path class="accordion-svg__circle"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												fill="#ECECEC" />
+											<path class="accordion-svg__border"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												stroke="none" />
+											<path class="accordion-svg__arrow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333"
+												stroke="black" />
+										</svg>
+									</button>
+									<ul class="accordion__list">
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div data-target-language="russian" class="catalog__content">
+						<p class="section-descr catalog__descr">Акционеры крупнейших компаний, которые представляют собой
+							яркий пример континентально-европейского типа политической культуры, будут объявлены нарушающими
+							общечеловеческие нормы этики и морали. Являясь всего лишь частью общей картины, стремящиеся
+							вытеснить традиционное производство, нанотехнологии и по сей день остаются уделом либералов,
+							которые жаждут быть функционально разнесены на независимые элементы.</p>
+						<div class="catalog__row">
+							<div class="painter">
+								<div data-target-painter="alekseev" class="painter__content">
+									<div class="painter__image">
+										<picture>
+											<source srcset="img/painter/alekseev.webp" type="image/webp">
+											<img src="img/painter/alekseev.jpg" alt="">
+										</picture>
+									</div>
+									<span class="painter__name">Фёдор Я́ковлевич Алексе́ев</span>
+									<small class="painter__lived">1753, Санкт-Петербург — 11 (23) ноября 1824,
+										Санкт-Петербург</small>
+									<p class="painter__info section-descr">русский живописец, один из основоположников русского
+										городского пейзажа. Современники называли его «русским Каналетто». Крупнейший мастер
+										русской ведуты.</p>
+								</div>
+							</div>
+							<div class="accordion">
+								<div class="accordion__block">
+									<button class="btn-reset accordion__date">
+										<span>C 1400 по 1499 гг.</span>
+										<svg class="accordion-svg" width="50" height="50" viewbox="0 0 50 50" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path class="accordion-svg__circle"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												fill="#ECECEC" />
+											<path class="accordion-svg__border"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												stroke="none" />
+											<path class="accordion-svg__arrow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333"
+												stroke="black" />
+										</svg>
+									</button>
+									<ul class="accordion__list">
+										<li class="accordion__item"><button data-painter="alekseev"
+												class="btn-reset accordion__tab accordion__tab--active">Я́ковлевич
+												Алексе́ев</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+									</ul>
+								</div>
+								<div class="accordion__block">
+									<button class="btn-reset accordion__date">
+										<span>C 1500 по 1599 гг.</span>
+										<svg class="accordion-svg" width="50" height="50" viewbox="0 0 50 50" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path class="accordion-svg__circle"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												fill="#ECECEC" />
+											<path class="accordion-svg__border"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												stroke="none" />
+											<path class="accordion-svg__arrow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333"
+												stroke="black" />
+										</svg>
+									</button>
+									<ul class="accordion__list">
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+									</ul>
+								</div>
+								<div class="accordion__block">
+									<button class="btn-reset accordion__date">
+										<span>C 1600 по 1699 гг.</span>
+										<svg class="accordion-svg" width="50" height="50" viewbox="0 0 50 50" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path class="accordion-svg__circle"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												fill="#ECECEC" />
+											<path class="accordion-svg__border"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												stroke="none" />
+											<path class="accordion-svg__arrow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333"
+												stroke="black" />
+										</svg>
+									</button>
+									<ul class="accordion__list">
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+									</ul>
+								</div>
+								<div class="accordion__block">
+									<button class="btn-reset accordion__date">
+										<span>C 1700 по 1799 гг.</span>
+										<svg class="accordion-svg" width="50" height="50" viewbox="0 0 50 50" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path class="accordion-svg__circle"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												fill="#ECECEC" />
+											<path class="accordion-svg__border"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												stroke="none" />
+											<path class="accordion-svg__arrow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333"
+												stroke="black" />
+										</svg>
+									</button>
+									<ul class="accordion__list">
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+									</ul>
+								</div>
+								<div class="accordion__block">
+									<button class="btn-reset accordion__date">
+										<span>C 1800 по 1899 гг.</span>
+										<svg class="accordion-svg" width="50" height="50" viewbox="0 0 50 50" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path class="accordion-svg__circle"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												fill="#ECECEC" />
+											<path class="accordion-svg__border"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												stroke="none" />
+											<path class="accordion-svg__arrow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333"
+												stroke="black" />
+										</svg>
+									</button>
+									<ul class="accordion__list">
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+									</ul>
+								</div>
+								<div class="accordion__block">
+									<button class="btn-reset accordion__date">
+										<span>C 1900 по 1999 гг.</span>
+										<svg class="accordion-svg" width="50" height="50" viewbox="0 0 50 50" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path class="accordion-svg__circle"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												fill="#ECECEC" />
+											<path class="accordion-svg__border"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												stroke="none" />
+											<path class="accordion-svg__arrow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333"
+												stroke="black" />
+										</svg>
+									</button>
+									<ul class="accordion__list">
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+									</ul>
+								</div>
+								<div class="accordion__block">
+									<button class="btn-reset accordion__date">
+										<span>C 2000 г.</span>
+										<svg class="accordion-svg" width="50" height="50" viewbox="0 0 50 50" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path class="accordion-svg__circle"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												fill="#ECECEC" />
+											<path class="accordion-svg__border"
+												d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z"
+												stroke="none" />
+											<path class="accordion-svg__arrow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333"
+												stroke="black" />
+										</svg>
+									</button>
+									<ul class="accordion__list">
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бенедетто ди
+												Биндо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бергоньоне,
+												Амброджо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Биссоло,
+												Франческо</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Больтраффио,
+												Джованни</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бонсиньори,
+												Франческо</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Боттичини,
+												Рафаэлло</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Брамантино</button>
+										</li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бреа,
+												Людовико</button></li>
+										<li class="accordion__item"><button class="btn-reset accordion__tab">Бьяджо д’Антонио
+												Туччи</button></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="events" class="events">
+				<div class="container">
+					<h2 class="events__title section-title">События</h2>
+					<div class="events__swiper swiper-container">
+						<div class="events__pagination swiper-pagionation"></div>
+						<ul class="events__row swiper-wrapper">
+							<li class="swiper-slide events__column">
+								<div class="events__image">
+									<picture>
+										<source srcset="img/events/1.webp" type="image/webp">
+										<img src="img/events/1.jpg" alt="">
+									</picture>
+								</div>
+								<div class="events__item">
+									<div class="events__info">
+										<span>Музей им. Щусева</span>
+										<span>с 20 марта по 30 апреля</span>
+									</div>
+									<div class="events__text">
+										<h3 class="events__event">Книжная гравюра в живом восприятии</h3>
+										<p class="events__descr">Один из ведущих флорентийских художников Кватроченто, основатель
+											художественной династии, которую продолжили его брат Давид и сын Ридольфо.</p>
+									</div>
+									<a href="#" class="events__link">Подробнее</a>
+								</div>
+							</li>
+							<li class="swiper-slide events__column">
+								<div class="events__image">
+									<picture>
+										<source srcset="img/events/2.webp" type="image/webp">
+										<img src="img/events/2.jpg" alt="">
+									</picture>
+								</div>
+								<div class="events__item">
+									<div class="events__info">
+										<span>ММОМА</span>
+										<span>24 марта 19:00</span>
+									</div>
+									<div class="events__text">
+										<h3 class="events__event">«Открытая дискуссия». Дмитрий Петров и Сергей Ильин.</h3>
+										<p class="events__descr">Высокий уровень вовлечения представителей целевой аудитории
+											является четким доказательством простого факта.</p>
+									</div>
+									<a href="#" class="events__link">Подробнее</a>
+								</div>
+							</li>
+							<li class="swiper-slide events__column">
+								<div class="events__image">
+									<picture>
+										<source srcset="img/events/3.webp" type="image/webp">
+										<img src="img/events/3.jpg" alt="">
+									</picture>
+								</div>
+								<div class="events__item">
+									<div class="events__info">
+										<span>Еврейский музей</span>
+										<span>с 31 марта по 21 апреля</span>
+									</div>
+									<div class="events__text">
+										<h3 class="events__event">Выставка «Формация 2020»</h3>
+										<p class="events__descr">Идейные соображения высшего порядка, а также современная
+											методология разработки играет важную роль в формировании глубокомысленных рассуждений.
+										</p>
+									</div>
+									<a href="#" class="events__link">Подробнее</a>
+								</div>
+							</li>
+							<li class="swiper-slide events__column">
+								<div class="events__image">
+									<picture>
+										<source srcset="img/events/4.webp" type="image/webp">
+										<img src="img/events/4.jpg" alt="">
+									</picture>
+								</div>
+								<div class="events__item">
+									<div class="events__info">
+										<span>Третьяковка на Крымском валу</span>
+										<span>с 30 марта по 30 апреля</span>
+									</div>
+									<div class="events__text">
+										<h3 class="events__event">XXIV Международная биеннале молодого искусства</h3>
+										<p class="events__descr">Внезапно, реплицированные с зарубежных источников, современные
+											исследования.
+										</p>
+									</div>
+									<a href="#" class="events__link">Подробнее</a>
+								</div>
+							</li>
+							<li class="swiper-slide events__column">
+								<div class="events__image">
+									<picture>
+										<source srcset="img/events/5.webp" type="image/webp">
+										<img src="img/events/5.jpg" alt="">
+									</picture>
+								</div>
+								<div class="events__item">
+									<div class="events__info">
+										<span>ММАМ</span>
+										<span>с 8 апреля по 20 мая</span>
+									</div>
+									<div class="events__text">
+										<h3 class="events__event">Джон Винзор. Фотографии из серии «Метафора серебра»</h3>
+										<p class="events__descr">Один из ведущих флорентийских художников Кватроченто, основатель
+											художественной династии, которую продолжили его брат Давид и сын Ридольфо.</p>
+									</div>
+									<a href="#" class="events__link">Подробнее</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<button class="events__btn purple-border-btn btn-reset">Все события</button>
+				</div>
+			</section>
+			<section id="editions" class="editions">
+				<div class="container">
+					<div class="editions__row">
+						<div class="editions__left">
+							<h2 class="editions__title section-title">Издания</h2>
+							<div class="categories">
+								<span class="categories__title">
+									<span>Категории</span>
+									<svg class="categories__arrow" width="12" height="11" viewbox="0 0 12 11" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path d="M11 5L6 10L0.999998 5" stroke="white" />
+									</svg>
+								</span>
+								<ul class="categories__list">
+									<li class="categories__item">
+										<label class="categories__label">
+											<input type="checkbox" class="categories__input">
+											<span class="categories__text">Бестселлеры</span>
+											<svg class="categories__close" width="12" height="12" viewbox="0 0 29 29" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<g opacity="0.7">
+													<rect width="37.2801" height="3.72801"
+														transform="matrix(0.707093 0.707121 -0.707093 0.707121 2.63867 7.62939e-06)"
+														fill="white" />
+													<rect width="37.2801" height="3.72801"
+														transform="matrix(0.707093 -0.707121 0.707093 0.707121 -0.000976562 26.3615)"
+														fill="white" />
+												</g>
+											</svg>
+										</label>
+									</li>
+									<li class="categories__item">
+										<label class="categories__label">
+											<input type="checkbox" class="categories__input">
+											<span class="categories__text">Искусство</span>
+											<svg class="categories__close" width="12" height="12" viewbox="0 0 29 29" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<g opacity="0.7">
+													<rect width="37.2801" height="3.72801"
+														transform="matrix(0.707093 0.707121 -0.707093 0.707121 2.63867 7.62939e-06)"
+														fill="white" />
+													<rect width="37.2801" height="3.72801"
+														transform="matrix(0.707093 -0.707121 0.707093 0.707121 -0.000976562 26.3615)"
+														fill="white" />
+												</g>
+											</svg>
+										</label>
+									</li>
+									<li class="categories__item">
+										<label class="categories__label">
+											<input type="checkbox" class="categories__input">
+											<span class="categories__text">Архитектура</span>
+											<svg class="categories__close" width="12" height="12" viewbox="0 0 29 29" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<g opacity="0.7">
+													<rect width="37.2801" height="3.72801"
+														transform="matrix(0.707093 0.707121 -0.707093 0.707121 2.63867 7.62939e-06)"
+														fill="white" />
+													<rect width="37.2801" height="3.72801"
+														transform="matrix(0.707093 -0.707121 0.707093 0.707121 -0.000976562 26.3615)"
+														fill="white" />
+												</g>
+											</svg>
+										</label>
+									</li>
+									<li class="categories__item">
+										<label class="categories__label">
+											<input type="checkbox" class="categories__input">
+											<span class="categories__text">Дизайн</span>
+											<svg class="categories__close" width="12" height="12" viewbox="0 0 29 29" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<g opacity="0.7">
+													<rect width="37.2801" height="3.72801"
+														transform="matrix(0.707093 0.707121 -0.707093 0.707121 2.63867 7.62939e-06)"
+														fill="white" />
+													<rect width="37.2801" height="3.72801"
+														transform="matrix(0.707093 -0.707121 0.707093 0.707121 -0.000976562 26.3615)"
+														fill="white" />
+												</g>
+											</svg>
+										</label>
+									</li>
+									<li class="categories__item">
+										<label class="categories__label">
+											<input type="checkbox" class="categories__input">
+											<span class="categories__text">Мода</span>
+											<svg class="categories__close" width="12" height="12" viewbox="0 0 29 29" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<g opacity="0.7">
+													<rect width="37.2801" height="3.72801"
+														transform="matrix(0.707093 0.707121 -0.707093 0.707121 2.63867 7.62939e-06)"
+														fill="white" />
+													<rect width="37.2801" height="3.72801"
+														transform="matrix(0.707093 -0.707121 0.707093 0.707121 -0.000976562 26.3615)"
+														fill="white" />
+												</g>
+											</svg>
+										</label>
+									</li>
+									<li class="categories__item">
+										<label class="categories__label">
+											<input type="checkbox" class="categories__input">
+											<span class="categories__text">Детям</span>
+											<svg class="categories__close" width="12" height="12" viewbox="0 0 29 29" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<g opacity="0.7">
+													<rect width="37.2801" height="3.72801"
+														transform="matrix(0.707093 0.707121 -0.707093 0.707121 2.63867 7.62939e-06)"
+														fill="white" />
+													<rect width="37.2801" height="3.72801"
+														transform="matrix(0.707093 -0.707121 0.707093 0.707121 -0.000976562 26.3615)"
+														fill="white" />
+												</g>
+											</svg>
+										</label>
+									</li>
+									<li class="categories__item">
+										<label class="categories__label">
+											<input type="checkbox" class="categories__input">
+											<span class="categories__text">Художественная литература</span>
+											<svg class="categories__close" width="12" height="12" viewbox="0 0 29 29" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<g opacity="0.7">
+													<rect width="37.2801" height="3.72801"
+														transform="matrix(0.707093 0.707121 -0.707093 0.707121 2.63867 7.62939e-06)"
+														fill="white" />
+													<rect width="37.2801" height="3.72801"
+														transform="matrix(0.707093 -0.707121 0.707093 0.707121 -0.000976562 26.3615)"
+														fill="white" />
+												</g>
+											</svg>
+										</label>
+									</li>
+									<li class="categories__item">
+										<label class="categories__label">
+											<input type="checkbox" class="categories__input">
+											<span class="categories__text">Публицистика</span>
+											<svg class="categories__close" width="12" height="12" viewbox="0 0 29 29" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<g opacity="0.7">
+													<rect width="37.2801" height="3.72801"
+														transform="matrix(0.707093 0.707121 -0.707093 0.707121 2.63867 7.62939e-06)"
+														fill="white" />
+													<rect width="37.2801" height="3.72801"
+														transform="matrix(0.707093 -0.707121 0.707093 0.707121 -0.000976562 26.3615)"
+														fill="white" />
+												</g>
+											</svg>
+										</label>
+									</li>
+									<li class="categories__item">
+										<label class="categories__label">
+											<input type="checkbox" class="categories__input">
+											<span class="categories__text">Путеводители</span>
+											<svg class="categories__close" width="12" height="12" viewbox="0 0 29 29" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<g opacity="0.7">
+													<rect width="37.2801" height="3.72801"
+														transform="matrix(0.707093 0.707121 -0.707093 0.707121 2.63867 7.62939e-06)"
+														fill="white" />
+													<rect width="37.2801" height="3.72801"
+														transform="matrix(0.707093 -0.707121 0.707093 0.707121 -0.000976562 26.3615)"
+														fill="white" />
+												</g>
+											</svg>
+										</label>
+									</li>
+									<li class="categories__item">
+										<label class="categories__label">
+											<input type="checkbox" class="categories__input">
+											<span class="categories__text">Философия</span>
+											<svg class="categories__close" width="12" height="12" viewbox="0 0 29 29" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<g opacity="0.7">
+													<rect width="37.2801" height="3.72801"
+														transform="matrix(0.707093 0.707121 -0.707093 0.707121 2.63867 7.62939e-06)"
+														fill="white" />
+													<rect width="37.2801" height="3.72801"
+														transform="matrix(0.707093 -0.707121 0.707093 0.707121 -0.000976562 26.3615)"
+														fill="white" />
+												</g>
+											</svg>
+										</label>
+									</li>
+									<li class="categories__item">
+										<label class="categories__label">
+											<input type="checkbox" class="categories__input">
+											<span class="categories__text">Учебная литература</span>
+											<svg class="categories__close" width="12" height="12" viewbox="0 0 29 29" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<g opacity="0.7">
+													<rect width="37.2801" height="3.72801"
+														transform="matrix(0.707093 0.707121 -0.707093 0.707121 2.63867 7.62939e-06)"
+														fill="white" />
+													<rect width="37.2801" height="3.72801"
+														transform="matrix(0.707093 -0.707121 0.707093 0.707121 -0.000976562 26.3615)"
+														fill="white" />
+												</g>
+											</svg>
+										</label>
+									</li>
+									<li class="categories__item">
+										<label class="categories__label">
+											<input type="checkbox" class="categories__input">
+											<span class="categories__text">Журналы и газеты</span>
+											<svg class="categories__close" width="12" height="12" viewbox="0 0 29 29" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<g opacity="0.7">
+													<rect width="37.2801" height="3.72801"
+														transform="matrix(0.707093 0.707121 -0.707093 0.707121 2.63867 7.62939e-06)"
+														fill="white" />
+													<rect width="37.2801" height="3.72801"
+														transform="matrix(0.707093 -0.707121 0.707093 0.707121 -0.000976562 26.3615)"
+														fill="white" />
+												</g>
+											</svg>
+										</label>
+									</li>
+								</ul>
+							</div>
+							<div class="price">
+								<span class="price__title">Цена</span>
+								<div class="price__block">
+									<label for="price__input-1"><span class="price__text">От</span><input id="price__input-1"
+											value="50" type="number" class="price__input"></label><label for="price__input-2"><span
+											class="price__text">до</span><input id="price__input-2" value="25000" type="number"
+											class="price__input"></label><span class="price__text">руб.</span>
+								</div>
+							</div>
+						</div>
+						<div class="editions__right">
+							<div class="editions-swiper swiper-container">
+								<div class="editions-swiper__btn-prev swiper-button-prev"><svg class="editions-swiper__svg"
+										width="30" height="30" viewbox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M15 30C6.71573 30 8.89561e-07 23.2843 1.25168e-06 15C1.61379e-06 6.71573 6.71573 -1.01779e-06 15 -6.55671e-07C23.2843 -2.93554e-07 30 6.71573 30 15C30 23.2843 23.2843 30 15 30Z"
+											fill="#666666" />
+										<path d="M16 20L11 15L16 10" stroke="white" />
+									</svg></div>
+								<div class="editions-swiper__pagination swiper-pagionation"></div>
+								<div class="editions-swiper__btn-next swiper-button-next"><svg class="editions-swiper__svg"
+										width="30" height="30" viewbox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M15 30C23.2843 30 30 23.2843 30 15C30 6.71573 23.2843 -1.01779e-06 15 -6.55671e-07C6.71573 -2.93554e-07 2.93554e-07 6.71573 6.55671e-07 15C1.01779e-06 23.2843 6.71573 30 15 30Z"
+											fill="#666666" />
+										<path d="M14 20L19 15L14 10" stroke="white" />
+									</svg></div>
+								<div class="editions-swiper__wrapper swiper-wrapper">
+									<div class="editions-swiper__slide swiper-slide">
+										<div class="editions-swiper__image">
+											<picture>
+												<source srcset="img/editions/swiper/1.webp" type="image/webp">
+												<img src="img/editions/swiper/1.jpg" alt="">
+											</picture>
+										</div>
+										<div class="editions-swiper__info">
+											<div class="editions-swiper__info-left">
+												<span class="editions-swiper__name">Искусство цвета</span>
+												<span class="editions-swiper__author">Иттен, Иоханнес</span>
+											</div>
+											<span class="editions-swiper__price">620 руб</span>
+										</div>
+										<button
+											class="editions-swiper__btn purple-border-btn btn-reset"><span>Заказать</span></button>
+									</div>
+									<div class="editions-swiper__slide swiper-slide">
+										<div class="editions-swiper__image">
+											<picture>
+												<source srcset="img/editions/swiper/2.webp" type="image/webp">
+												<img src="img/editions/swiper/2.jpg" alt="">
+											</picture>
+										</div>
+										<div class="editions-swiper__info">
+											<div class="editions-swiper__info-left">
+												<span class="editions-swiper__name">Типографика</span>
+												<span class="editions-swiper__author">Рудер, Эмиль</span>
+											</div>
+											<span class="editions-swiper__price">2 450 руб</span>
+										</div>
+										<button
+											class="editions-swiper__btn purple-border-btn btn-reset"><span>Заказать</span></button>
+									</div>
+									<div class="editions-swiper__slide swiper-slide">
+										<div class="editions-swiper__image">
+											<picture>
+												<source srcset="img/editions/swiper/3.webp" type="image/webp">
+												<img src="img/editions/swiper/3.jpg" alt="">
+											</picture>
+										</div>
+										<div class="editions-swiper__info">
+											<div class="editions-swiper__info-left">
+												<span class="editions-swiper__name">Книга про буквы</span>
+												<span class="editions-swiper__author">Гордон, Юрий</span>
+											</div>
+											<span class="editions-swiper__price">2 200 руб</span>
+										</div>
+										<button
+											class="editions-swiper__btn purple-border-btn btn-reset"><span>Заказать</span></button>
+									</div>
+									<div class="editions-swiper__slide swiper-slide">
+										<div class="editions-swiper__image">
+											<picture>
+												<source srcset="img/editions/swiper/4.webp" type="image/webp">
+												<img src="img/editions/swiper/4.jpg" alt="">
+											</picture>
+										</div>
+										<div class="editions-swiper__info">
+											<div class="editions-swiper__info-left">
+												<span class="editions-swiper__name">Николай Ильин</span>
+												<span class="editions-swiper__author">Кричевский, Влади<span
+														class="events__hidden-dots">...</span><span
+														class="events__hide-text">мир</span></span>
+											</div>
+											<span class="editions-swiper__price">1 100 руб</span>
+										</div>
+										<button
+											class="editions-swiper__btn purple-border-btn btn-reset"><span>Заказать</span></button>
+									</div>
+									<div class="editions-swiper__slide swiper-slide">
+										<div class="editions-swiper__image">
+											<picture>
+												<source srcset="img/editions/swiper/5.webp" type="image/webp">
+												<img src="img/editions/swiper/5.jpg" alt="">
+											</picture>
+										</div>
+										<div class="editions-swiper__info">
+											<div class="editions-swiper__info-left">
+												<span class="editions-swiper__name">Модульные сет<span
+														class="events__hidden-dots">...</span><span class="events__hide-text">ки в
+														граф...</span></span>
+												<span class="editions-swiper__author">Мюллер-Брокманн<span
+														class="events__hidden-dots">...</span><span class="events__hide-text">,
+														Йозеф</span></span>
+											</div>
+											<span class="editions-swiper__price">1 450 руб</span>
+										</div>
+										<button
+											class="editions-swiper__btn purple-border-btn btn-reset"><span>Заказать</span></button>
+									</div>
+									<div class="editions-swiper__slide swiper-slide">
+										<div class="editions-swiper__image">
+											<picture>
+												<source srcset="img/editions/swiper/6.webp" type="image/webp">
+												<img src="img/editions/swiper/6.jpg" alt="">
+											</picture>
+										</div>
+										<div class="editions-swiper__info">
+											<div class="editions-swiper__info-left">
+												<span class="editions-swiper__name">Эволюция граф<span
+														class="events__hidden-dots">...</span><span
+														class="events__hide-text">ических...</span></span>
+												<span class="editions-swiper__author">Хеллер, Чваст</span>
+											</div>
+											<span class="editions-swiper__price">3 200 руб</span>
+										</div>
+										<button
+											class="editions-swiper__btn purple-border-btn btn-reset"><span>Заказать</span></button>
+									</div>
+									<div class="editions-swiper__slide swiper-slide">
+										<div class="editions-swiper__image">
+											<picture>
+												<source srcset="img/editions/swiper/7.webp" type="image/webp">
+												<img src="img/editions/swiper/7.jpg" alt="">
+											</picture>
+										</div>
+										<div class="editions-swiper__info">
+											<div class="editions-swiper__info-left">
+												<span class="editions-swiper__name">Искусство и ви<span
+														class="events__hidden-dots">...</span><span
+														class="events__hide-text">зуальное...</span></span>
+												<span class="editions-swiper__author">Арнхейм, Рудольф</span>
+											</div>
+											<span class="editions-swiper__price">2 200 руб</span>
+										</div>
+										<button
+											class="editions-swiper__btn purple-border-btn btn-reset"><span>Заказать</span></button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="projects" class="projects">
+				<div class="container">
+					<h2 class="projects__title section-title">Проекты</h2>
+					<p class="projects__descr section-descr">Предварительные выводы: постоянное
+						информационно-пропагандистское обеспечение нашей деятельности однозначно фиксирует необходимость
+						своевременного выполнения сверхзадачи. А ещё независимые государства смешаны с не уникальными данными
+						до степени совершенной неузнаваемости, из&#8209;за чего возрастает их статус бесполезности. Прежде
+						всего,
+						постоянное информационно-пропагандистское
+						<svg class="projects__tooltip" id="projects-tooltip-1" width="16" height="16" viewbox="0 0 16 16"
+							fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd"
+								d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z"
+								fill="#999999" />
+							<path
+								d="M7.26154 6.4551H8.73846V13H7.26154V6.4551ZM8 4.90259C7.71282 4.90259 7.4718 4.81126 7.27692 4.62861C7.09231 4.44597 7 4.22273 7 3.9589C7 3.69508 7.09231 3.47184 7.27692 3.28919C7.4718 3.0964 7.71282 3 8 3C8.28718 3 8.52308 3.09132 8.70769 3.27397C8.90256 3.44647 9 3.66464 9 3.92846C9 4.20243 8.90256 4.43582 8.70769 4.62861C8.52308 4.81126 8.28718 4.90259 8 4.90259Z"
+								fill="white" />
+						</svg>
+						обеспечение нашей деятельности однозначно фиксирует
+						необходимость экономической целесообразности принимаемых решений. И нет сомнений, что действия
+						представителей оппозиции могут быть рассмотрены
+						<svg class="projects__tooltip" id="projects-tooltip-2" width="16" height="16" viewbox="0 0 16 16"
+							fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd"
+								d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z"
+								fill="#999999" />
+							<path
+								d="M7.26154 6.4551H8.73846V13H7.26154V6.4551ZM8 4.90259C7.71282 4.90259 7.4718 4.81126 7.27692 4.62861C7.09231 4.44597 7 4.22273 7 3.9589C7 3.69508 7.09231 3.47184 7.27692 3.28919C7.4718 3.0964 7.71282 3 8 3C8.28718 3 8.52308 3.09132 8.70769 3.27397C8.90256 3.44647 9 3.66464 9 3.92846C9 4.20243 8.90256 4.43582 8.70769 4.62861C8.52308 4.81126 8.28718 4.90259 8 4.90259Z"
+								fill="white" />
+						</svg>
+						исключительно в разрезе маркетинговых и финансовых
+						<svg class="projects__tooltip" id="projects-tooltip-3" width="16" height="16" viewbox="0 0 16 16"
+							fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd"
+								d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z"
+								fill="#999999" />
+							<path
+								d="M7.26154 6.4551H8.73846V13H7.26154V6.4551ZM8 4.90259C7.71282 4.90259 7.4718 4.81126 7.27692 4.62861C7.09231 4.44597 7 4.22273 7 3.9589C7 3.69508 7.09231 3.47184 7.27692 3.28919C7.4718 3.0964 7.71282 3 8 3C8.28718 3 8.52308 3.09132 8.70769 3.27397C8.90256 3.44647 9 3.66464 9 3.92846C9 4.20243 8.90256 4.43582 8.70769 4.62861C8.52308 4.81126 8.28718 4.90259 8 4.90259Z"
+								fill="white" />
+						</svg>
+						предпосылок. Банальные, но неопровержимые выводы, а также представители современных социальных
+						резервов призывают нас к новым свершениям, которые, в свою очередь, должны быть смешаны с не
+						уникальными данными до степени совершенной неузнаваемости. Подробнее: <a href=""
+							class="projects__link">blanchard&#8209;art.ru/projects/about</a>
+					</p>
+					<h3 class="projects__swiper-title">Партнёры проектов:</h3>
+					<div class="projects__swiper-container">
+						<div class="projects-swiper__btn-prev swiper-button-prev">
+							<svg class="projects-swiper__svg" width="30" height="30" viewbox="0 0 30 30" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path class="projects-swiper__svg-circle"
+									d="M15 30C6.71573 30 8.89561e-07 23.2843 1.25168e-06 15C1.61379e-06 6.71573 6.71573 -1.01779e-06 15 -6.55671e-07C23.2843 -2.93554e-07 30 6.71573 30 15C30 23.2843 23.2843 30 15 30Z"
+									fill="#ECECEC" />
+								<path class="projects-swiper__svg-border"
+									d="M15 30C6.71573 30 8.89561e-07 23.2843 1.25168e-06 15C1.61379e-06 6.71573 6.71573 -1.01779e-06 15 -6.55671e-07C23.2843 -2.93554e-07 30 6.71573 30 15C30 23.2843 23.2843 30 15 30Z"
+									stroke="none" />
+								<path class="projects-swiper__svg-arrow" d="M16 20L11 15L16 10" stroke="black" />
+							</svg>
+						</div>
+						<div class="projects-swiper__btn-next swiper-button-next">
+							<svg class="projects-swiper__svg" width="30" height="30" viewbox="0 0 30 30" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path class="projects-swiper__svg-circle"
+									d="M15 30C23.2843 30 30 23.2843 30 15C30 6.71573 23.2843 -1.01779e-06 15 -6.55671e-07C6.71573 -2.93554e-07 2.93554e-07 6.71573 6.55671e-07 15C1.01779e-06 23.2843 6.71573 30 15 30Z"
+									fill="#ECECEC" />
+								<path class="projects-swiper__svg-border"
+									d="M15 30C23.2843 30 30 23.2843 30 15C30 6.71573 23.2843 -1.01779e-06 15 -6.55671e-07C6.71573 -2.93554e-07 2.93554e-07 6.71573 6.55671e-07 15C1.01779e-06 23.2843 6.71573 30 15 30Z"
+									stroke="none" />
+								<path class="projects-swiper__svg-arrow" d="M14 20L19 15L14 10" stroke="black" />
+							</svg>
+						</div>
+						<div class="projects-swiper swiper-container">
+							<div class="projects-swiper__wrapper swiper-wrapper">
+								<div class="projects-swiper__slide swiper-slide">
+									<div class="projects-swiper__image">
+										<img src="img/projects/hover/1.png" alt="">
+									</div>
+								</div>
+								<div class="projects-swiper__slide swiper-slide">
+									<div class="projects-swiper__image">
+										<img src="img/projects/hover/2.png" alt="">
+									</div>
+								</div>
+								<div class="projects-swiper__slide swiper-slide">
+									<div class="projects-swiper__image">
+										<img src="img/projects/hover/3.png" alt="">
+									</div>
+								</div>
+								<div class="projects-swiper__slide swiper-slide">
+									<div class="projects-swiper__image">
+										<img src="img/projects/hover/4.png" alt="">
+									</div>
+								</div>
+								<div class="projects-swiper__slide swiper-slide">
+									<div class="projects-swiper__image">
+										<img src="img/projects/hover/5.png" alt="">
+									</div>
+								</div>
+								<div class="projects-swiper__slide swiper-slide">
+									<div class="projects-swiper__image">
+										<img src="img/projects/hover/6.png" alt="">
+									</div>
+								</div>
+								<div class="projects-swiper__slide swiper-slide">
+									<div class="projects-swiper__image">
+										<img src="img/projects/hover/7.png" alt="">
+									</div>
+								</div>
+								<div class="projects-swiper__slide swiper-slide">
+									<div class="projects-swiper__image">
+										<img src="img/projects/hover/8.png" alt="">
+									</div>
+								</div>
+								<div class="projects-swiper__slide swiper-slide">
+									<div class="projects-swiper__image">
+										<img src="img/projects/hover/9.png" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="contacts" class="contacts">
+				<h2 class="contacts__title section-title">Контакты</h2>
+				<div class="contacts__row">
+					<div class="contacts__left">
+						<div class="contacts__left-container">
+							<span class="contacts__show-room">Шоурум №4</span>
+							<address class="contacts__address">Леонтьевский переулок, дом 5, строение 1</address>
+							<form action="php/mail.php" method="post" class="form">
+								<input type="hidden" name="admin_email[]" value="bagdat-2002er@mail.ru">
+								<input type="hidden" name="form_subject" value="Тема письма">
+								<span class="form__title">Заказать обратный звонок</span>
+								<input data-validate-field="name" placeholder="Имя*" type="text" name="user-name"
+									class="form__input">
+								<input data-validate-field="tel" data-validate-rules="phone" placeholder="Телефон*" type="tel"
+									name="user-tel" class="form__input">
+								<button class="form__btn purple-border-btn btn-reset">Заказать</button>
+							</form>
+							<div class="social">
+								<span class="social__title">Связаться в один клик</span>
+								<ul class="social__icons">
+									<li class="social__item">
+										<a href="#" class="social__icon social__icon--whatsapp"></a>
+									</li>
+									<li class="social__item">
+										<a href="#" class="social__icon social__icon--telegram"></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div id="map" class="contacts__map"></div>
+					<div class="hidden-address">
+						<span class="hidden-address__show-room">Шоурум №2</span>
+						<address class="hidden-address__address">Покровский бульвар, дом 24, строение 3</address>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__row">
+					<div class="footer__logo">
+						<img src="img/logo.svg" alt="">
+					</div>
+					<div class="social">
+						<ul class="social__icons">
+							<li class="social__item">
+								<a href="#" class="social__footer-icon social__footer-icon--vk"></a>
+							</li>
+							<li class="social__item">
+								<a href="#" class="social__footer-icon social__footer-icon--instagram"></a>
+							</li>
+							<li class="social__item">
+								<a href="#" class="social__footer-icon social__footer-icon--facebook"></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<script src="https://api-maps.yandex.ru/2.1/?&lang=ru_RU"></script>
+	<script src="js/inputmask.min.js"></script>
+	<script src="js/just-validate.min.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/tippy.js"></script>
+	<script src="js/simple-bar.js"></script>
+	<script src="js/swiper-bundle.min.js"></script>
+	<script src="js/main.js" defer></script>
+</body>
+
+</html>
